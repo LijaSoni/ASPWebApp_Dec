@@ -76,6 +76,7 @@
     <Content Include="Page2.aspx" />
     <Content Include="Scenery.jpg" />
     <Content Include="Second.aspx" />
+    <Content Include="testpage.aspx" />
     <Content Include="Third.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -134,6 +135,13 @@
     </Compile>
     <Compile Include="Second.aspx.designer.cs">
       <DependentUpon>Second.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testpage.aspx.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testpage.aspx.designer.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Third.aspx.cs">
       <DependentUpon>Third.aspx</DependentUpon>
